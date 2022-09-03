@@ -84,26 +84,4 @@ public class Monster : MonoBehaviour
 		yield return new WaitForSeconds(sec);
 		isCoolDown = false;
 	}
-
-	//private void OnCollisionEnter(Collision collision)
-	//{
-	//	if (collision.collider.CompareTag("Bullet"))
-	//	{
-	//		Destroy(collision.collider);
-
-	//		if (GameObject.Find("Player").gameObject.GetComponent<Player>().type == "red" && gameObject.name == "Green")
-	//		{
-	//			monstarHP -= 1.5f;
-	//		}
-	//		else if (GameObject.Find("Player").gameObject.GetComponent<Player>().type == "green" && gameObject.name == "Blue")
-	//		{
-	//			monstarHP -= 1.5f;
-	//		}
-	//		else if (GameObject.Find("Player").gameObject.GetComponent<Player>().type == "blue" && gameObject.name == "Red")
-	//		{
-	//			monstarHP -= 1.5f;
-	//		}
-	//		else monstarHP -= 1;
-	//	}
-	//}
 }
