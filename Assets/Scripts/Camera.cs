@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
+	[Header("Player Input")]
 	public GameObject player;
+
+	[Header("Camera Position")]
+	public float yPos;
+	public float zPos;
+
+	[Header("Camera Rotation")]
+	public float xRot;
 
 	private void Update()
 	{
-		transform.position = player.transform.position + new Vector3(0f, 5.5f, -15f);
-		transform.position = new Vector3(transform.position.x, transform.position.y, -15f);
+		transform.rotation = Quaternion.Euler(xRot, transform.rotation.y, transform.rotation.z);
+		transform.position = player.transform.position + new Vector3(0f, yPos, 0f);
+		transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
 	}
 }
