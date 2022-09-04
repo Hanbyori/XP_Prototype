@@ -184,10 +184,9 @@ GameObject:
   - component: {fileID: 8571131512188326413}
   - component: {fileID: 8571131512188326450}
   - component: {fileID: 8571131512188326451}
-  - component: {fileID: 8571131512188326415}
   m_Layer: 0
   m_Name: GreenT
-  m_TagString: Untagged
+  m_TagString: Row
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,15 +270,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8571131512188326415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8571131512188326448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0bd8338a9dabfa43a4459cfd891d6d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
